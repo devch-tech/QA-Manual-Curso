@@ -16,41 +16,72 @@
 
 - **Fallo**: Un fallo ocurre cuando un software no cumple con los requisitos establecidos. Por ejemplo, si una función debe retornar un valor y lo hace de manera incorrecta, esto es un fallo.
 
-### 2. Tipos de Pruebas
+# Tipos de Pruebas en QA
 
-#### Pruebas Funcionales
+El aseguramiento de la calidad (QA) abarca diferentes tipos de pruebas, cada una diseñada para evaluar aspectos específicos del software. A continuación, se presenta una clasificación detallada:
 
-Las pruebas funcionales se centran en verificar que cada función del software opere de acuerdo con los requisitos especificados. Un ejemplo de prueba funcional podría ser verificar que un usuario pueda iniciar sesión en una aplicación con credenciales válidas.
+## 1. Pruebas Funcionales
 
-#### Pruebas No Funcionales
+Las pruebas funcionales se centran en verificar que las funciones del software cumplan con los requisitos especificados. Incluyen:
 
-Estas pruebas evalúan aspectos que no están relacionados con el comportamiento específico del software, como la usabilidad, el rendimiento y la seguridad. Algunos tipos de pruebas no funcionales incluyen:
+### 1.1. Pruebas de Aceptación
+- **Descripción**: Verifican si el software cumple con los requisitos y expectativas del cliente.
+- **Ejemplo**: Un cliente prueba una aplicación de compras en línea para asegurarse de que todos los procesos de pago funcionen correctamente.
 
-- **Pruebas de Usabilidad**: Evalúan la facilidad de uso de una aplicación. Por ejemplo, se puede observar cómo los usuarios navegan en una interfaz y si pueden completar tareas sin frustraciones.
+### 1.2. Pruebas de Regresión
+- **Descripción**: Aseguran que los cambios recientes en el software no afecten las funcionalidades existentes.
+- **Ejemplo**: Después de una actualización de la aplicación, se prueba que las funciones anteriores sigan funcionando como se esperaba.
 
-- **Pruebas de Rendimiento**: Miden cómo responde el software bajo diferentes condiciones de carga. Esto incluye pruebas de carga, pruebas de estrés y pruebas de volumen. Por ejemplo, probar una aplicación para ver cuántos usuarios pueden usarla simultáneamente sin que se degrade el rendimiento.
+### 1.3. Pruebas Smoke
+- **Descripción**: Pruebas básicas que verifican que las funcionalidades principales del software funcionen.
+- **Ejemplo**: Un equipo realiza pruebas rápidas para verificar que la aplicación se inicie y que las funciones críticas estén accesibles.
 
-- **Pruebas de Seguridad**: Se enfocan en identificar vulnerabilidades y asegurar que los datos estén protegidos. Esto incluye pruebas de penetración para simular ataques y evaluar la seguridad de una aplicación.
+### 1.4. Pruebas Sanity
+- **Descripción**: Verifican que una funcionalidad específica funcione correctamente después de un cambio.
+- **Ejemplo**: Tras corregir un error en el proceso de registro, se prueba únicamente esa función para asegurarse de que el problema se haya solucionado.
 
-- **Pruebas de Compatibilidad**: Verifican que el software funcione correctamente en diferentes navegadores, sistemas operativos y dispositivos. Por ejemplo, asegurar que una aplicación web se vea y funcione bien en Chrome, Firefox y Safari.
+### 1.5. Pruebas Exploratorias
+- **Descripción**: Se centran en explorar el software sin un conjunto de casos de prueba predefinidos.
+- **Ejemplo**: Un tester utiliza su conocimiento del software para intentar encontrar defectos al interactuar con la aplicación de manera no estructurada.
 
-- **Pruebas de Aceptación**: Determinan si el software cumple con los requisitos y expectativas del cliente. Esto se puede realizar mediante pruebas de aceptación del usuario (UAT), donde los usuarios finales prueban el software en un entorno real antes de su lanzamiento.
+## 2. Pruebas No Funcionales
 
-#### Pruebas de Regresión
+Las pruebas no funcionales evalúan aspectos que no están directamente relacionados con las funciones específicas del software, como rendimiento, usabilidad y seguridad.
 
-Las pruebas de regresión se realizan para asegurar que nuevas actualizaciones o cambios en el software no afecten negativamente a las funciones existentes. Por ejemplo, después de corregir un bug en el proceso de pago, se deben realizar pruebas de regresión para asegurarse de que la funcionalidad de compra siga funcionando.
+### 2.1. Pruebas de Usabilidad
+- **Descripción**: Evalúan la facilidad de uso de la aplicación.
+- **Ejemplo**: Se realiza una prueba con usuarios reales para observar si pueden navegar por el sitio web sin problemas.
 
-#### Pruebas Smoke
+### 2.2. Pruebas de Rendimiento
+- **Descripción**: Miden el comportamiento del software bajo diversas condiciones de carga.
+- **Ejemplo**: Se simula el acceso de múltiples usuarios a la vez para comprobar cómo se comporta la aplicación.
 
-Las pruebas smoke son un conjunto básico de pruebas que se realizan para verificar que las funciones principales del software están operativas. Se ejecutan generalmente después de una nueva compilación. Por ejemplo, si se lanza una nueva versión de una aplicación, las pruebas smoke podrían verificar que la aplicación se inicia y que los principales botones funcionan.
+#### 2.2.1. Pruebas de Carga
+- **Descripción**: Evalúan cómo el software se desempeña bajo una carga específica.
+- **Ejemplo**: Se determina cuántos usuarios puede manejar simultáneamente un sitio web sin degradar su rendimiento.
 
-#### Pruebas Sanity
+#### 2.2.2. Pruebas de Estrés
+- **Descripción**: Evalúan el software más allá de sus límites especificados para determinar su comportamiento bajo condiciones extremas.
+- **Ejemplo**: Se aumenta el número de usuarios concurrentes hasta que el sistema falle, para identificar el límite máximo.
 
-Las pruebas sanity son un tipo específico de pruebas de regresión que se llevan a cabo para comprobar que una función específica o un conjunto de funciones está trabajando correctamente después de un cambio. Por ejemplo, si se corrige un bug en la funcionalidad de búsqueda, se realizan pruebas sanity para verificar que esta funcionalidad no tenga problemas.
+#### 2.2.3. Pruebas de Escalabilidad
+- **Descripción**: Evalúan cómo se comporta el sistema a medida que aumenta la carga.
+- **Ejemplo**: Se verifica si la aplicación puede manejar un incremento en el número de usuarios sin afectar su rendimiento.
 
-#### Pruebas Exploratorias
+### 2.3. Pruebas de Seguridad
+- **Descripción**: Verifican la protección contra vulnerabilidades y ataques.
+- **Ejemplo**: Se realizan pruebas para detectar posibles brechas de seguridad que podrían permitir el acceso no autorizado a datos sensibles.
 
-Las pruebas exploratorias son un enfoque menos estructurado donde el tester explora el software sin un conjunto predefinido de pruebas. Esto permite identificar defectos inesperados. Por ejemplo, un tester podría navegar por la aplicación y utilizarla de manera creativa para descubrir errores que no se habrían encontrado con pruebas tradicionales.
+### 2.4. Pruebas de Compatibilidad
+- **Descripción**: Aseguran que el software funcione correctamente en diferentes entornos (navegadores, dispositivos, sistemas operativos).
+- **Ejemplo**: Se prueba una aplicación web en varios navegadores para garantizar que se muestre correctamente en todos ellos.
+
+## Resumen de Clasificación
+
+- **Pruebas Funcionales**: Aceptación, regresión, smoke, sanity, exploratorias.
+  
+- **Pruebas No Funcionales**: Usabilidad, rendimiento (carga, estrés, escalabilidad), seguridad, compatibilidad.
+
 
 ### 3. Principios Básicos del Testing de Software
 
