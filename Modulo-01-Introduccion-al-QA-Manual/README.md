@@ -42,18 +42,20 @@ Es fundamental entender las diferencias entre estos tres términos, ya que cada 
 
 ### 3. Importancia del QA en el ciclo de desarrollo de software
 
-El QA juega un papel crucial en el ciclo de desarrollo de software porque:
+El aseguramiento de la calidad (QA) juega un papel crucial en el ciclo de desarrollo de software por varias razones clave:
 
-- **Aumenta la satisfacción del cliente**: Al asegurar que el software funcione correctamente y cumpla con los requisitos.
-  
-- **Reduce costos a largo plazo**: Detectar y corregir defectos en etapas tempranas del desarrollo es menos costoso que solucionarlos después de la entrega.
-  
-- **Mejora la reputación de la empresa**: Un producto de alta calidad refuerza la confianza de los clientes en la empresa.
+- **Aumenta la satisfacción del cliente**: Un software de calidad que funciona correctamente y cumple con las expectativas de los usuarios es fundamental para la satisfacción del cliente. Cuando los usuarios encuentran un producto libre de errores y que satisface sus necesidades, es más probable que recomienden el software y se conviertan en clientes leales. Por ejemplo, una aplicación de banca móvil que funcione sin problemas permitirá a los usuarios realizar transacciones de manera confiable, aumentando su confianza en la plataforma.
+
+- **Reduce costos a largo plazo**: Identificar y corregir defectos en las primeras etapas del desarrollo es significativamente menos costoso que abordar problemas después de que el software ha sido entregado. Según estudios, los costos de corregir errores pueden aumentar hasta 30 veces si se encuentran en la fase de mantenimiento en comparación con la fase de desarrollo. Implementar un enfoque de QA sólido puede ayudar a minimizar estos costos, permitiendo que las empresas optimicen sus recursos y eviten gastos inesperados.
+
+- **Mejora la reputación de la empresa**: Un producto de alta calidad refuerza la confianza de los clientes en la empresa. La reputación de una empresa puede verse gravemente afectada por un software defectuoso; los errores frecuentes pueden llevar a críticas negativas y disminuir la lealtad del cliente. Por ejemplo, empresas como Microsoft y Apple han invertido fuertemente en QA para asegurar que sus productos sean percibidos como confiables y de alta calidad. Esto no solo aumenta la satisfacción del cliente, sino que también contribuye al crecimiento del negocio y a una imagen de marca positiva.
+
+En resumen, el QA no solo se trata de encontrar y corregir errores, sino que es un componente esencial para garantizar un desarrollo de software exitoso que beneficie tanto a los clientes como a la empresa.
+
 
 ## Recursos Adicionales
 
-- [Artículo sobre QA en el desarrollo de software](https://ejemplo.com)
-- [Video introductorio sobre QA](https://ejemplo.com)
+- [Artículo sobre QA en el desarrollo de software](https://www.computing.es/infraestructuras/pasos-para-asegurar-la-calidad-del-software/)
 
 ---
 
