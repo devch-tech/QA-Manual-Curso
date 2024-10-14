@@ -70,8 +70,24 @@ Este curso está diseñado para guiarte paso a paso a través de cada aspecto de
 ---
 
 ## 📘 **Recursos Adicionales**
-- [**Herramientas útiles para QA**](./resources/tools.md)  
-- [**Libros recomendados**](./resources/books.md)  
-- [**Enlaces a comunidades y sitios de interés**](./resources/links.md)  
+
+### 1. Herramientas útiles para QA
+- **[Selenium](https://www.selenium.dev/)**: Herramienta de automatización de pruebas para aplicaciones web.
+- **[JIRA](https://www.atlassian.com/software/jira)**: Herramienta de gestión de proyectos que permite el seguimiento de bugs y tareas.
+- **[Postman](https://www.postman.com/)**: Herramienta para probar APIs.
+- **[TestRail](https://www.gurock.com/testrail/)**: Herramienta para la gestión de pruebas.
+- **[TestLink](http://testlink.sourceforge.net/)**: Herramienta de gestión de pruebas de código abierto que permite crear y gestionar casos de prueba.
+- **[Mantis](https://www.mantisbt.org/)**: Sistema de seguimiento de bugs y gestión de proyectos.
+- **[Confluence](https://www.atlassian.com/software/confluence)**: Herramienta de colaboración que permite documentar y compartir información del proyecto.
+
+### 2. Libros recomendados
+- **[Lessons Learned in Software Testing](https://www.amazon.com/Lessons-Learned-Software-Testing-Complete/dp/0471081128)** de Cem Kaner, James Bach y Bret Pettichord.
+- **[Agile Testing: A Practical Guide for Testers and Agile Teams](https://www.amazon.com/Agile-Testing-Practical-Testers-Teams/dp/0321683687)** de Lisa Crispin y Janet Gregory.
+- **[The Art of Software Testing](https://www.amazon.com/Art-Software-Testing-Third-Edition/dp/1119472008)** de Glenford Myers.
+
+### 3. Enlaces a comunidades y sitios de interés
+- **[Ministry of Testing](https://www.ministryoftesting.com/)**: Comunidad de testers con recursos, foros y eventos.
+- **[Reddit - Software Testing](https://www.reddit.com/r/softwaretesting/)**: Comunidad en Reddit dedicada a discutir temas de testing y QA.
+- **[Software Testing Help](https://www.softwaretestinghelp.com/)**: Sitio web que ofrece tutoriales, guías y artículos sobre testing de software.  
 
 ¡Espero que disfrutes del curso y te conviertas en un excelente QA Manual! 🏆💻
