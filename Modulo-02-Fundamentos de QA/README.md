@@ -24,7 +24,17 @@ Las pruebas funcionales se centran en verificar que cada función del software o
 
 #### Pruebas No Funcionales
 
-Estas pruebas evalúan aspectos que no están relacionados con el comportamiento específico del software, como la usabilidad, el rendimiento y la seguridad. Por ejemplo, una prueba de carga que mide cómo se comporta una aplicación bajo un gran número de usuarios simultáneos.
+Estas pruebas evalúan aspectos que no están relacionados con el comportamiento específico del software, como la usabilidad, el rendimiento y la seguridad. Algunos tipos de pruebas no funcionales incluyen:
+
+- **Pruebas de Usabilidad**: Evalúan la facilidad de uso de una aplicación. Por ejemplo, se puede observar cómo los usuarios navegan en una interfaz y si pueden completar tareas sin frustraciones.
+
+- **Pruebas de Rendimiento**: Miden cómo responde el software bajo diferentes condiciones de carga. Esto incluye pruebas de carga, pruebas de estrés y pruebas de volumen. Por ejemplo, probar una aplicación para ver cuántos usuarios pueden usarla simultáneamente sin que se degrade el rendimiento.
+
+- **Pruebas de Seguridad**: Se enfocan en identificar vulnerabilidades y asegurar que los datos estén protegidos. Esto incluye pruebas de penetración para simular ataques y evaluar la seguridad de una aplicación.
+
+- **Pruebas de Compatibilidad**: Verifican que el software funcione correctamente en diferentes navegadores, sistemas operativos y dispositivos. Por ejemplo, asegurar que una aplicación web se vea y funcione bien en Chrome, Firefox y Safari.
+
+- **Pruebas de Aceptación**: Determinan si el software cumple con los requisitos y expectativas del cliente. Esto se puede realizar mediante pruebas de aceptación del usuario (UAT), donde los usuarios finales prueban el software en un entorno real antes de su lanzamiento.
 
 #### Pruebas de Regresión
 
