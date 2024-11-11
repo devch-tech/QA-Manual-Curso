@@ -75,4 +75,5 @@ La documentación de los resultados es fundamental para analizar el estado de la
 - **Recomendaciones**: Pasos a seguir basados en los resultados (e.g., "Repetir pruebas después de corregir defectos").
 
 **Ejemplo de reporte de ejecución**:
+Se probaron 20 casos de prueba relacionados con la funcionalidad de inicio de sesión. Resultados: 18 casos aprobados, 2 fallidos. Defectos: Se reportaron 2 defectos críticos. Recomendación: Corregir defectos antes de proceder con más pruebas.
 
