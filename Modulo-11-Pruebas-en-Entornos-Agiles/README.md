@@ -52,24 +52,66 @@ Un pipeline de CI/CD ejecuta pruebas automatizadas en Selenium cada vez que un d
 
 ---
 
-## 4. Rol del QA en las ceremonias ágiles
-1. **Planificación del sprint**:
-   - Revisar historias de usuario y criterios de aceptación.
-   - Identificar riesgos y dependencias.
+## 4. Reuniones clave en Agile y participación del QA
+En un entorno ágil, el equipo participa en varias ceremonias para alinear prioridades y garantizar que el producto cumple con las expectativas. Estas reuniones son esenciales tanto para los desarrolladores como para los QAs.
 
-2. **Daily stand-up**:
-   - Compartir el progreso de las pruebas.
-   - Reportar bloqueos que puedan retrasar la validación.
+### **Reuniones del marco Scrum**
+1. **Sprint Planning (Planificación del Sprint)**:
+   - Propósito: Planificar las tareas que se completarán durante el sprint.
+   - Rol del QA:
+     - Revisar las historias de usuario y sus criterios de aceptación.
+     - Aportar información sobre riesgos y dependencias.
+     - Estimar el esfuerzo requerido para las pruebas.
 
-3. **Revisión del sprint**:
-   - Validar junto con el equipo que las historias cumplan con los requerimientos.
-   - Proporcionar feedback sobre los resultados de las pruebas.
+2. **Daily Stand-up (Reunión diaria)**:
+   - Propósito: Compartir actualizaciones rápidas sobre el progreso del equipo.
+   - Rol del QA:
+     - Informar sobre el estado de las pruebas.
+     - Escalar bloqueos relacionados con defectos o dependencias.
 
-4. **Retrospectiva del sprint**:
-   - Discutir problemas encontrados durante las pruebas.
-   - Proponer mejoras para optimizar el proceso de testing.
+3. **Sprint Review (Revisión del Sprint)**:
+   - Propósito: Demostrar el trabajo completado durante el sprint.
+   - Rol del QA:
+     - Presentar resultados de las pruebas realizadas.
+     - Participar en la validación del producto con el cliente o stakeholders.
+
+4. **Sprint Retrospective (Retrospectiva del Sprint)**:
+   - Propósito: Identificar áreas de mejora en el proceso del equipo.
+   - Rol del QA:
+     - Compartir desafíos encontrados durante las pruebas.
+     - Sugerir cambios para mejorar la calidad en futuros sprints.
+
+### **Reuniones adicionales**
+- **Backlog Refinement (Refinamiento del Backlog)**:
+  - Propósito: Detallar y priorizar las historias de usuario.
+  - Rol del QA:
+    - Validar que los criterios de aceptación sean claros y probables de probar.
+    - Identificar posibles escenarios negativos o riesgos.
+
+---
+
+## 5. ¿Qué es el backlog y cuál es su relación con el QA?
+El **backlog** es una lista priorizada de requisitos, historias de usuario y tareas pendientes. Se divide en:
+- **Product Backlog**: Contiene todas las funcionalidades que el producto debe tener.
+- **Sprint Backlog**: Subconjunto del product backlog seleccionado para el sprint actual.
+
+**Relación con el QA**:
+- El QA revisa las historias de usuario para asegurar que los criterios de aceptación sean claros.
+- Ayuda a identificar dependencias o posibles problemas antes de que se planifiquen en un sprint.
+
+---
+
+## 6. ¿Qué es un Product Owner y cómo interactúa con el Scrum Team?
+El **Product Owner (PO)** es responsable de maximizar el valor del producto. Sus funciones incluyen:
+- Crear y priorizar el product backlog.
+- Definir criterios de aceptación para cada historia de usuario.
+- Aclarar dudas del equipo de desarrollo y QA sobre los requisitos.
+
+**Comunicación con el Scrum Team**:
+- El PO trabaja estrechamente con el Scrum Master, desarrolladores y QA para garantizar que el equipo entienda los objetivos del producto.
+- El QA consulta al PO para aclarar criterios de aceptación y validar escenarios específicos durante las pruebas.
 
 ---
 
 ## Conclusión
-El QA en Agile no solo valida el producto; también asegura que el equipo esté alineado en cuanto a calidad y objetivos. La colaboración, adaptabilidad y pruebas continuas son esenciales para garantizar entregas rápidas y confiables.
+El QA desempeña un papel crucial en Agile al garantizar que el producto mantenga su calidad a través de colaboración, pruebas continuas y participación activa en ceremonias clave. Entender cómo se gestionan las reuniones y las responsabilidades del Product Owner mejora significativamente la integración del QA en el proceso ágil.
